@@ -7,4 +7,20 @@ El código que vamos a usar contiene rutas de archivo relativas, por lo que reco
 
 Podemos descargar los datos desde R con el paquete `usethis`
 
+``` r
+# install.packages("usethis")
+usethis::use_course("luisDVA/taller_xl")
+```
+
+Este es un ejemplo de cómo sería la estructura de las carpetas y archivos:
+(el directorio de trabajo y el archivo .RProj pueden llevar cualquier nombre que nos sirva)  
+
+directorio_de_trabajo/  
+├─ hojas_calc/  
+│  ├─ cafeteria.xlsx  
+│  ├─ rladies.xlsx  
+│  ├─ rladies-formato.xlsx  
+│  ├─ vehiculos.xlsx  
+├─ taller_calc.R  
+├─ proyecto_taller.Rproj  
 
