@@ -11,6 +11,7 @@ Podemos descargar los datos desde R con el paquete `usethis`
 # install.packages("usethis")
 usethis::use_course("luisDVA/taller_xl")
 ```
+El comando descarga los archivos al Escritorio, después podemos copiar los contenidos a nuestra carpeta de trabajo.
 
 Este es un ejemplo de cómo sería la estructura de las carpetas y archivos:
 (el directorio de trabajo y el archivo .RProj pueden llevar cualquier nombre que nos sirva)  
@@ -23,4 +24,4 @@ directorio_de_trabajo/
 │  ├─ vehiculos.xlsx  
 ├─ taller_calc.R  
 ├─ proyecto_taller.Rproj  
-
+├─ README.md
