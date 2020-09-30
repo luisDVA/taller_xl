@@ -8,7 +8,7 @@ El código que vamos a usar contiene rutas de archivo relativas, por lo que reco
 Podemos descargar los datos desde R con el paquete `usethis`
 
 ``` r
-# install.packages("usethis")
+install.packages("usethis") # instalar si es necesario
 usethis::use_course("luisDVA/taller_xl")
 ```
 El comando descarga los archivos al Escritorio, después podemos copiar los contenidos a nuestra carpeta de trabajo.
